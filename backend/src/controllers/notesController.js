@@ -1,3 +1,4 @@
+
 import Note from "../models/node.js";
 
 export async function getAllNotes(req, res) {
@@ -59,3 +60,4 @@ export async function deleteNote(req, res) {
         res.status(500).json({message: "Internal server error"});
     }
 }
+

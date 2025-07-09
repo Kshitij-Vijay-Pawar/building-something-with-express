@@ -10,7 +10,7 @@ const App = () => {
 
 
   return (
-    <div>
+    <div className="relative h-full w-full">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/create" element={<CreatePage />} />
