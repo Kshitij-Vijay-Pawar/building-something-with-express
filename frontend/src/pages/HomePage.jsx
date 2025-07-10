@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Navbar } from '../components/navbar'
+import { Navbar } from '../components/Navbar.jsx'
 import { RateLimitedUI } from '../components/RateLimitedUI.jsx';
 import toast from 'react-hot-toast';
 import FooterBar from '../components/Footer.jsx';
