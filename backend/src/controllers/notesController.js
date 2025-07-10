@@ -1,5 +1,5 @@
 
-import Note from "../models/node.js";
+import Note from "../models/Node.js";
 
 export async function getAllNotes(req, res) {
     try {
