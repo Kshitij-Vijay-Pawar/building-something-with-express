@@ -17,6 +17,7 @@ const __dirname = path.resolve();
 
 
 app.use(express.json());
+// app.use(errorHandler);
 
 if (process.env.NODE_ENV !== "production") {
     app.use(cors({
